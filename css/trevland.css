@@ -100,7 +100,7 @@ h6 {
 }
 
 .button_place_content {
-
+  margin-bottom: 235px;
   padding: 17px 45px;
 }
 
@@ -114,6 +114,30 @@ h6 {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.main {}
+/* ----------------------------------------Popular Location--------------------------------------------- */
+
+.main {
+  padding-top: 140px;
+}
+
+.popular-location__container {}
+
+.popular-location__description {}
+
+.description {}
+
+.description__title {}
+
+.description__text {}
+
+.popular-location__cards {}
+
+.popular-location__card {}
+
+.popular-location__image {}
+
+.popular-location__title {}
+
+.popular-location__text {}
 
 .footer {}
