@@ -12,11 +12,13 @@ h6 {
 }
 
 .wrapper {
-  /* min-height: 100%; */
-  /* overflow: hidden; */
+  min-height: 100%;
+  overflow: hidden;
 }
 
 .header {
+  padding: 35px 0 235px 0;
+  position: relative;
   color: white;
 }
 
@@ -27,15 +29,13 @@ h6 {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  z-index: 1;
-  position: relative;
 }
 
 .header__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 35px 0 200px 0;
+  margin: 0 0 200px 0;
 }
 
 .logo_place_header {
@@ -100,7 +100,6 @@ h6 {
 }
 
 .button_place_content {
-  margin-bottom: 235px;
   padding: 17px 45px;
 }
 
@@ -111,7 +110,9 @@ h6 {
   top: 0;
   left: 0;
   object-fit: cover;
-  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  background-image: url(../image/main-block/main-img.jpg);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* ----------------------------------------Popular Location--------------------------------------------- */
@@ -122,22 +123,65 @@ h6 {
 
 .popular-location__container {}
 
-.popular-location__description {}
+.popular-location__description {
+  max-width: 735px;
+}
 
-.description {}
+.description {
+  margin: 0 auto;
+  text-align: center;
+}
 
-.description__title {}
+.description__title {
+  margin: 0;
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 60px;
+}
 
-.description__text {}
+.description__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 29px;
+}
 
-.popular-location__cards {}
+.description__title_place_popular-location {
+  margin: 0 0 20px 0;
+}
 
-.popular-location__card {}
+.description__text_place_popular-location {
+  margin: 0 0 50px 0;
+}
 
-.popular-location__image {}
+.popular-location__cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
 
-.popular-location__title {}
+.popular-location__card {
+  max-width: 360px;
+  list-style-type: none;
+  text-align: center;
+}
 
-.popular-location__text {}
+.card__image_place_popular-location {
+  margin: 0 0 35px 0;
+}
+
+.card__title_place_popular-location {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.card__text_place_popular-location {
+  margin: 0 auto;
+  max-width: 295px;
+  font-size: 18px;
+  line-height: 29px;
+}
 
 .footer {}
