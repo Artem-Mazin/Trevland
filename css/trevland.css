@@ -194,31 +194,31 @@ h6 {
 
 /* ----------------------------------Special Offers-------------------------------------------------------------------- */
 
-.news {
+.offers {
   padding: 140px 0 0 0;
 }
 
-.news__container {
+.offers__container {
   max-width: none;
 }
 
-.news__description {}
+.offers__description {}
 
 .description {}
 
-.description__title_place_news {
+.description__title_place_offers {
   margin: 0 0 20px 0;
 }
 
 .description__title {}
 
-.description__text_place_news {
+.description__text_place_offers {
   margin: 0 0 60px 0;
 }
 
 .description__text {}
 
-.news__cards {
+.offers__cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -227,70 +227,70 @@ h6 {
   list-style-type: none;
 }
 
-.news__card {}
+.offers__card {}
 
-.news__image_place_card {
+.offers__image_place_card {
   margin: 0 0 20px 0;
 }
 
-.news__title_place_card {
+.offers__title_place_card {
   margin: 0 0 8px 0;
   font-weight: 500;
   font-size: 24px;
   line-height: 150%;
 }
 
-.news__description_place_card {
+.offers__description_place_card {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.news__location-rating {
+.offers__location-rating {
   display: flex;
   margin: 0 0 8px 0;
   align-items: center;
 }
 
-.news__pointer {
+.offers__pointer {
   margin: 0 10px 0 0;
 }
 
-.news__location {
+.offers__location {
   margin: 0 50px 0 0;
   font-size: 20px;
   line-height: 150%;
 }
 
-.news__star {
+.offers__star {
   margin: 0 10px 0 0;
 }
 
-.news__rating {
+.offers__rating {
   margin: 0;
   font-size: 18px;
   line-height: 150%;
   color: rgba(0, 0, 0, 1);
 }
 
-.news__time {
+.offers__time {
   margin: 0 0 8px 0;
   font-size: 16px;
   line-height: 24px;
 }
 
-.news__price {
+.offers__price {
   margin: 0;
   font-size: 16px;
   line-height: 24px;
 }
 
-.news__price-span {
+.offers__price-span {
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   color: rgba(0, 0, 0, 1);
 }
 
-.news__switcher {
+.offers__switcher {
   display: flex;
   margin: 0 auto;
 }
