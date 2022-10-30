@@ -97,6 +97,7 @@ h6 {
   font-size: 18px;
   line-height: 29px;
   margin: 0 0 40px 0;
+  opacity: 0.6;
 }
 
 .button_place_content {
@@ -121,6 +122,8 @@ h6 {
   padding-top: 140px;
 }
 
+.popular-location {}
+
 .popular-location__container {}
 
 .popular-location__description {
@@ -143,6 +146,7 @@ h6 {
   margin: 0;
   font-size: 18px;
   line-height: 29px;
+  opacity: 0.6;
 }
 
 .description__title_place_popular-location {
@@ -166,22 +170,23 @@ h6 {
   text-align: center;
 }
 
-.card__image_place_popular-location {
+.popular-location__image_place_card {
   margin: 0 0 35px 0;
 }
 
-.card__title_place_popular-location {
+.popular-location__title_place_card {
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
 
-.card__text_place_popular-location {
+.popular-location__text_place_card {
   margin: 0 auto;
   max-width: 295px;
   font-size: 18px;
   line-height: 29px;
+  opacity: 0.6;
 }
 
 .footer {}
