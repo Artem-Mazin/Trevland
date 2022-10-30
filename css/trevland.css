@@ -110,13 +110,15 @@ h6 {
   height: 100%;
   top: 0;
   left: 0;
-  object-fit: cover;
   z-index: -1;
   background-image: url(../image/main-block/main-img.jpg);
   background-color: rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
 }
 
-/* ----------------------------------------Popular Location--------------------------------------------- */
+/* ----------------------------------------Popular Location--------------------------------------------------------------------- */
 
 .main {
   padding-top: 140px;
@@ -160,6 +162,7 @@ h6 {
 .popular-location__cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 }
@@ -188,5 +191,120 @@ h6 {
   line-height: 29px;
   opacity: 0.6;
 }
+
+/* ----------------------------------Special Offers-------------------------------------------------------------------- */
+
+.news {
+  padding: 140px 0 0 0;
+}
+
+.news__container {
+  max-width: none;
+}
+
+.news__description {}
+
+.description {}
+
+.description__title_place_news {
+  margin: 0 0 20px 0;
+}
+
+.description__title {}
+
+.description__text_place_news {
+  margin: 0 0 60px 0;
+}
+
+.description__text {}
+
+.news__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 0 50px 0;
+  list-style-type: none;
+}
+
+.news__card {}
+
+.news__image_place_card {
+  margin: 0 0 20px 0;
+}
+
+.news__title_place_card {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.news__description_place_card {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.news__location-rating {
+  display: flex;
+  margin: 0 0 8px 0;
+  align-items: center;
+}
+
+.news__pointer {
+  margin: 0 10px 0 0;
+}
+
+.news__location {
+  margin: 0 50px 0 0;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.news__star {
+  margin: 0 10px 0 0;
+}
+
+.news__rating {
+  margin: 0;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.news__time {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.news__price {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.news__price-span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.news__switcher {
+  display: flex;
+  margin: 0 auto;
+}
+
+.switcher__arrow_direction_left {}
+
+.switcher__stripe {
+  margin: 0 50px 0 50px;
+}
+
+.switcher__stripe_position_not-active {}
+
+.switcher__stripe_position_active {}
+
+.switcher__arrow_direction_right {}
 
 .footer {}
