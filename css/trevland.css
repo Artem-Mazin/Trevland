@@ -176,18 +176,18 @@ h6 {
   text-align: center;
 }
 
-.popular-location__image_place_card {
+.popular-location__image {
   margin: 0 0 35px 0;
 }
 
-.popular-location__title_place_card {
+.popular-location__title {
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
 
-.popular-location__text_place_card {
+.popular-location__text {
   margin: 0 auto;
   max-width: 295px;
   font-size: 18px;
@@ -229,18 +229,18 @@ h6 {
 .offers__card {
 }
 
-.offers__image_place_card {
+.offers__image {
   margin: 0 0 20px 0;
 }
 
-.offers__title_place_card {
+.offers__title {
   margin: 0 0 8px 0;
   font-weight: 500;
   font-size: 24px;
   line-height: 150%;
 }
 
-.offers__description_place_card {
+.offers__offer {
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -337,6 +337,7 @@ h6 {
   display: flex;
   gap: 32px;
   padding: 0;
+  margin: 0;
 }
 
 .news__cards_position_right {
