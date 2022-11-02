@@ -22,7 +22,8 @@ h6 {
   color: white;
 }
 
-.header__container {}
+.header__container {
+}
 
 .container {
   max-width: 1140px;
@@ -124,9 +125,11 @@ h6 {
   padding-top: 140px;
 }
 
-.popular-location {}
+.popular-location {
+}
 
-.popular-location__container {}
+.popular-location__container {
+}
 
 .popular-location__description {
   max-width: 735px;
@@ -173,18 +176,18 @@ h6 {
   text-align: center;
 }
 
-.popular-location__image_place_card {
+.popular-location__image {
   margin: 0 0 35px 0;
 }
 
-.popular-location__title_place_card {
+.popular-location__title {
   margin: 0 0 10px 0;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
 }
 
-.popular-location__text_place_card {
+.popular-location__text {
   margin: 0 auto;
   max-width: 295px;
   font-size: 18px;
@@ -202,13 +205,15 @@ h6 {
   max-width: none;
 }
 
-.offers__description {}
+.offers__description {
+}
 
 .description__title_place_offers {
   margin: 0 0 20px 0;
 }
 
 .description__text_place_offers {
+  max-width: 650px;
   margin: 0 0 60px 0;
 }
 
@@ -221,20 +226,21 @@ h6 {
   list-style-type: none;
 }
 
-.offers__card {}
+.offers__card {
+}
 
-.offers__image_place_card {
+.offers__image {
   margin: 0 0 20px 0;
 }
 
-.offers__title_place_card {
+.offers__title {
   margin: 0 0 8px 0;
   font-weight: 500;
   font-size: 24px;
   line-height: 150%;
 }
 
-.offers__description_place_card {
+.offers__offer {
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -289,17 +295,21 @@ h6 {
   margin: 0 auto;
 }
 
-.switcher__arrow_direction_left {}
+.switcher__arrow_direction_left {
+}
 
 .switcher__stripe {
   margin: 0 50px 0 50px;
 }
 
-.switcher__stripe_position_not-active {}
+.switcher__stripe_position_not-active {
+}
 
-.switcher__stripe_position_active {}
+.switcher__stripe_position_active {
+}
 
-.switcher__arrow_direction_right {}
+.switcher__arrow_direction_right {
+}
 
 /* ----------------------------------------------From Blog & News----------------------------------------------- */
 
@@ -307,7 +317,8 @@ h6 {
   padding: 140px 0;
 }
 
-.news__container {}
+.news__container {
+}
 
 .news__description {
   max-width: 580px;
@@ -326,6 +337,7 @@ h6 {
   display: flex;
   gap: 32px;
   padding: 0;
+  margin: 0;
 }
 
 .news__cards_position_right {
@@ -333,7 +345,8 @@ h6 {
   padding: 0;
 }
 
-.news__card_position_left {}
+.news__card_position_left {
+}
 
 .news__card_position_right {
   display: flex;
@@ -345,6 +358,9 @@ h6 {
 
 .news__image_position_right {
   margin: 0 30px 30px 0;
+}
+.news__card_position_right:last-child img {
+  margin-bottom: 0;
 }
 
 .news__title_position_left {
@@ -403,14 +419,18 @@ h6 {
 }
 
 .footer__contacts {
-  margin: 0 0 20px 0;
+  /* margin: 0 0 20px 0; */
 }
 
 .logo_place_footer {
   margin: 0 0 40px 0;
 }
 
-.footer__contact {}
+.footer__contact {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+}
 
 .footer__text {
   margin: 0 0 10px 0;
@@ -439,26 +459,69 @@ h6 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.06em;
 }
 
 .footer__link_place_information {
   display: inline-block;
-  text-decoration: none;
   margin: 0 0 20px 0;
+  text-decoration: none;
+}
+.footer__information li:last-child a {
+  margin: 0;
 }
 
-.footer__rules {}
+.footer__rules {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
 
-.footer__rule {}
+.footer__rule {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  text-decoration: none;
+}
+.footer__rules li:last-child a:last-child {
+  margin: 0;
+}
 
-.footer__form-subscribe {}
+.footer__form-subscribe {
+}
 
-.footer__subscribe {}
+.footer__subscribe {
+  margin: 0 0 40px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
 
-.footer__form {}
+.footer__form {
+}
 
-.footer__input {}
+.footer__input {
+  margin: 0 35px 0 0;
+  padding: 10px 0 10px 20px;
+}
+.footer__input::placeholder {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
 
 .footer__button {
   margin: 0 25px 0 0;
+  padding: 10px 30px;
 }
